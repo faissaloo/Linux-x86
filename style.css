@@ -1,0 +1,237 @@
+body
+{
+  background-color: lightslategray;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 8px;
+}
+
+div
+{
+  padding: 2%;
+  margin: 1%;
+  border-style: outset;
+  border-color: burlywood;
+  border-width: 5px;
+  background-color: burlywood;
+  color: black;
+  font-size: 16px;
+}
+
+.header
+{
+  padding: 0em;
+  margin: 1em;
+  text-align: center;
+}
+
+.code
+{
+  margin: 1em;
+  padding-left: 4em;
+  font-family: monospace;
+  border: none;
+  background-color: lightgray;
+}
+
+a
+{
+  color: #000044;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #000088;
+  font-weight: bold;
+}
+
+caption
+{
+  font-weight: bold;
+}
+
+table
+{
+  min-width: 99%;
+  max-width: 99%;
+  width: 99%;
+}
+td
+{
+  min-width: 99%;
+  max-width: 99%;
+  width: 99%;
+  padding: 5px;
+  color: white;
+  background-color: darkslateblue;
+  outline-width: thick;
+  outline-width: thin;
+  outline-style: inset;
+}
+
+th
+{
+  border-style: outset;
+  background-color: burlywood;
+  border-color: burlywood;
+}
+
+td a
+{
+  color:skyblue;
+}
+td a:hover
+{
+  color:white;
+}
+
+/*Register tables*/
+.register
+{
+  table-layout: fixed;
+  width: 30em;
+}
+
+/*Register drop down menu*/
+.registersBtn
+{
+  display: none;
+}
+.registersMenu
+{
+  display: none;
+  position: absolute;
+}
+.registersDropdown:hover .registersMenu
+{
+  margin: 0px;
+  padding: 0px;
+  width: 9em;
+  border-width: 1px;
+  background-color: #ffd7a3;
+  display: block;
+}
+.registersDropdown
+{
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  border-style: none;
+}
+
+/*Syscalls drop down menu*/
+.syscallsBtn
+{
+  display: none;
+}
+.syscallsMenu
+{
+  display: none;
+  position: absolute;
+}
+.syscallsDropdown:hover .syscallsMenu
+{
+  margin: 0px;
+  padding: 0px;
+  width: 11em;
+  border-width: 1px;
+  background-color: #ffd7a3;
+  display: block;
+}
+.syscallsDropdown
+{
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  border-style: none;
+}
+
+/*Assemblers drop down menu*/
+.asmblrsBtn
+{
+  display: none;
+}
+.asmblrsMenu
+{
+  display: none;
+  position: absolute;
+}
+.asmblrsDropdown:hover .asmblrsMenu
+{
+  margin: 0px;
+  padding: 0px;
+  width: 6em;
+  border-width: 1px;
+  background-color: #ffd7a3;
+  display: block;
+}
+.asmblrsDropdown
+{
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  border-style: none;
+}
+
+/*Instructions drop down menu*/
+.opsBtn
+{
+  display: none;
+}
+.opsMenu
+{
+  display: none;
+  position: absolute;
+}
+.opsDropdown:hover .opsMenu
+{
+  margin: 0px;
+  padding: 0px;
+  width: 6em;
+  border-width: 1px;
+  background-color: #ffd7a3;
+  display: block;
+}
+.opsDropdown
+{
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  border-style: none;
+}
+
+/*System calls*/
+.dataTables_wrapper
+{
+  border-style: none;
+  padding: 0em;
+  margin: 0em;
+}
+.fg-toolbar 
+{
+  border-style: none;
+  padding: 0em;
+  margin: 0em;
+}
+.dataTables_filter
+{
+  border-style: none;
+  padding: 0em;
+  margin: 0em;
+}
+.dataTables_length
+{
+  display:none;
+}
+.dataTables_info
+{
+  display: none;
+}
+.dataTables_processing
+{
+  display: none;
+}
+.dataTables_paginate
+{
+  display: none;
+}
