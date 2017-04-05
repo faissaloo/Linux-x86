@@ -146,6 +146,33 @@ td a:hover
   border-style: none;
 }
 
+/*Arguments drop down menu*/
+.argsBtn
+{
+  display: none;
+}
+.argsMenu
+{
+  display: none;
+  position: absolute;
+}
+.argsDropdown:hover .argsMenu
+{
+  margin: 0px;
+  padding: 0px;
+  width: 11em;
+  border-width: 1px;
+  background-color: #ffd7a3;
+  display: block;
+}
+.argsDropdown
+{
+  margin: 0em;
+  padding: 0em;
+  display: inline-block;
+  border-style: none;
+}
+
 /*Assemblers drop down menu*/
 .asmblrsBtn
 {

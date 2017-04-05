@@ -21,6 +21,14 @@ $define template[$TITLE,$CONTENT]
       <a href="dialects.html">Dialects</a>
       <!--<a href="instructions.html">Instructions</a>-->
 
+      <div class="argsDropdown">
+        <a href="args.html" id="argsBtn">Arguments</a>
+        <div class="argsMenu">
+          <p><a href="args.html#shrthnd">Shorthand arguments</a></p>
+          <p><a href="args.html#arglen">Argument length</a></p>
+        </div>
+      </div>
+
       <div class="syscallsDropdown">
         <a href="syscall.html" id="syscallsBtn">Syscalls</a>
         <div class="syscallsMenu">
