@@ -35,7 +35,7 @@ $template[Syscalls,
       </div>
       <h3><a name="PreP2" href="#PreP2">Pre-Pentium II</a></h3>
         <p>
-          CPUs before the Pentium II do not have the sysenter instruction. Rather they must use the older&#44; slower and deprecated calling convention.
+          CPUs before the Pentium II do not have the sysenter instruction. Rather they must use the old&#44; slow and deprecated interrupt based calling convention.
         </p>
 
         <div class="code">
